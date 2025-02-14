@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Awesome GitHub Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1 data-aos="fade-down">Welcome to My GitHub Page</h1>
+      <p data-aos="fade-up" data-aos-delay="200">Innovative Animations & Modern Design</p>
+      <a href="#about" class="glow-button" data-aos="fade-up" data-aos-delay="400">Explore More</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="content">
+      <h2 data-aos="fade-right">About Me</h2>
+      <p data-aos="fade-left" data-aos-delay="200">I'm a passionate developer who loves creating stunning web experiences with modern technologies.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="content">
+      <h2 data-aos="fade-right">My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" data-aos="flip-left">
+          <h3>Project 1</h3>
+          <p>An innovative web app with interactive animations.</p>
+        </div>
+        <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+          <h3>Project 2</h3>
+          <p>A responsive portfolio with modern design.</p>
+        </div>
+        <div class="project-card" data-aos="flip-left" data-aos-delay="400">
+          <h3>Project 3</h3>
+          <p>A 3D visualization using Three.js.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My GitHub Page. All rights reserved.</p>
+  </footer>
+
+  <!-- Animation Library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
